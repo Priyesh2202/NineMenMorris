@@ -24,7 +24,7 @@ This repository contains a Nine Men Morris game developed for a university assig
         ""YOUR_PATH"\NineMenMorris\openjfx-17.0.7_windows-x64_bin-sdk\javafx-sdk-17.0.7\lib"
         --add-modules=javafx.base,javafx.controls,javafx.graphics,javafx.media,javafx.fxml
         ```
-    - Run the main class of the project (e.g., com.example.nineMenMorris.Main).
+    - Run the main class of the project (main.java.Game).
 
 ## Building the JAR
 - Ensure Maven is installed and configured.
@@ -33,7 +33,7 @@ This repository contains a Nine Men Morris game developed for a university assig
     ```mvn clean install```
   This will create a JAR file named `NineMenMorris-1.0-SNAPSHOT-shaded.jar` in the `target` directory.
 
-- Run the JAR:
+- Run the JAR (double click or):
     ```java -jar NineMenMorris-1.0-SNAPSHOT-shaded.jar```
 
   ## Authors
