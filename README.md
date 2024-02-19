@@ -3,7 +3,7 @@
 This repository contains a Nine Men Morris game developed for a university assignment, implemented using Java and JavaFX.
 
 ## Features
-- Two-player gameplay and One vs basic Bot
+- Two-player gameplay and One player vs basic Bot
 - Graphical user interface with board visualization
 - Placing and moving pieces
 - Forming mills and capturing opponent's pieces
