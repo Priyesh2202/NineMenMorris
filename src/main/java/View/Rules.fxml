@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="680.0" prefWidth="500.0" style="-fx-background-color: #efebe5;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controller.SceneController">
+
+    <children>
+        <Button layoutX="134.0" layoutY="524.0" mnemonicParsing="false" onAction="#rulesToMainMenu" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Return to Main Menu">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Label layoutX="50.0" layoutY="50.0" prefHeight="30.0" prefWidth="300.0" text="Nine Men's Morris Rules">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="100.0" prefHeight="30.0" prefWidth="300.0" text="Objective:">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="130.0" prefHeight="30.0" prefWidth="445.0" text="The goal of the game is to form a line of three of your pieces." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="163.0" prefHeight="30.0" prefWidth="300.0" text="Setup:">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="193.0" prefHeight="30.0" prefWidth="349.0" text="Each player starts with nine pieces of their color." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="230.0" prefHeight="30.0" prefWidth="300.0" text="Gameplay:">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="260.0" lineSpacing="2.0" prefHeight="53.0" prefWidth="429.0" text="1. Players take turns placing their pieces on empty intersections on the board." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="313.0" lineSpacing="2.0" prefHeight="53.0" prefWidth="429.0" text="2. Once all pieces are placed, players take turns moving their pieces to adjacent empty intersections along the lines." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="366.0" lineSpacing="2.0" prefHeight="53.0" prefWidth="429.0" text="3. If a player forms a line of three pieces, they can remove one of their opponent's pieces from the board." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="419.0" lineSpacing="2.0" prefHeight="53.0" prefWidth="429.0" text="4. Players continue to alternate turns until one player has only two pieces left or cannot make a legal move." wrapText="true">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

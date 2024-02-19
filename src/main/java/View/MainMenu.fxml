@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="main-menu" prefHeight="680.0" prefWidth="500.0" style="-fx-background-color: #efebe5;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controller.SceneController">
+   <children>
+<!--      <ImageView fitHeight="501.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">-->
+<!--         <image>-->
+<!--&lt;!&ndash;            <Image url="@../../game_title.png" />&ndash;&gt;-->
+<!--            <Image url="../res/game_title.png" />-->
+<!--         </image>-->
+<!--      </ImageView>-->
+      <Button layoutX="150.0" layoutY="406.0" mnemonicParsing="false" onAction="#switchToModeSelect" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Start">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="150.0" layoutY="485.0" mnemonicParsing="false" onAction="#switchToRuleScene" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Rules">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+       <Button layoutX="150.0" layoutY="564.0" mnemonicParsing="false" onAction="#closeGame" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Exit">
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+   </children>
+</AnchorPane>

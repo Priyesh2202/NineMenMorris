@@ -1,0 +1,21 @@
+/* @author Hee Zhan Zhynn
+ 24/4/2023
+
+    This file contains the css for the application.
+ */
+
+#board-grid {
+	-fx-background-image: url("../merel_background.png");
+}
+
+#left-tile-grid > .image-view {
+	-fx-image: url("../black_tile.png");
+}
+
+#right-tile-grid > .image-view {
+	-fx-image: url("../white_tile.png");
+}
+
+#main-menu {
+	-fx-background-image: url("../game_title.png");
+}

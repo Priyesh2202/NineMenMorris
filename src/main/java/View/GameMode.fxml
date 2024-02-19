@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="680.0" prefWidth="500.0" style="-fx-background-color: #efebe5;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controller.SceneController">
+    <children>
+        <Button layoutX="134.0" layoutY="524.0" mnemonicParsing="false" onAction="#rulesToMainMenu" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Return to Main Menu">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+<!--      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d0a999" height="506.0" layoutX="46.0" layoutY="87.0" stroke="WHITE" strokeType="INSIDE" width="408.0" />-->
+        <Label layoutX="113.0" layoutY="203.0" prefHeight="62.0" prefWidth="324.0" text="Please Select Game Mode" wrapText="true">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Label>
+      <Button layoutX="150.0" layoutY="425.0" mnemonicParsing="false" onAction="#switchToGameScene" userData="1" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Player vs AI">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="150.0" layoutY="326.0" mnemonicParsing="false" onAction="#switchToGameScene" userData="0" style="-fx-min-width: 200; -fx-font-size: 20;" stylesheets="@button.css" text="Player vs Player">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+    </children>
+
+</AnchorPane>
